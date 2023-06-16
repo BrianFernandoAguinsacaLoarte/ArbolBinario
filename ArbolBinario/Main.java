@@ -6,10 +6,13 @@ public class Main {
           arbol.raiz.izquierdo =new Node (3); // Se crea un objeto Node que tiene como valor 3, del atributo izquierdo, el objeto raiz y la instancia arbol
           arbol.raiz.derecho= new Node (8); // Se crea un objeto Node que tiene como valor 8, del atributo derecho, el objeto raiz y la instancia arbol 
           
-         arbol.raiz.izquierdo.izquierdo = new Node(1); // Se creaa un objeto Node que tiene como valor 1, del atributo izquierdo, del objeto izquierdo
+          arbol.raiz.izquierdo.izquierdo = new Node(1); // Se creaa un objeto Node que tiene como valor 1, del atributo izquierdo, del objeto izquierdo
                                                         //del objeto raiz y de la instancia arbol 
           arbol.raiz.izquierdo.izquierdo.derecho=new Node(2); //Se crea un objeto Node que tiene como valor , del atributo derecho, del objeto izquierdo
                                                             //del objeto raiz y de la instancia arbol
+
+         System.out.println(arbol); // Se realiza la impresion del PreOrden, InOrden y PosOrden
+         System.out.println("preorden"); // Se realiza la impresion del PreOrden
          
         
     }
