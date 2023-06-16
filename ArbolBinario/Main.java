@@ -7,6 +7,8 @@ public class Main {
           arbol.raiz.derecho= new Node (8); // Se crea un objeto Node que tiene como valor 8, del atributo derecho, el objeto raiz y la instancia arbol 
           arbol.raiz.izquierdo.izquierdo = new Node(1); // Se creaa un objeto Node que tiene como valor 1, del atributo izquierdo, del objeto izquierdo
                                                         //del objeto raiz y de la instancia arbol 
+         arbol.raiz.izquierdo.izquierdo.derecho=new Node(2); //Se crea un objeto Node que tiene como valor , del atributo derecho, del objeto izquierdo
+                                                            //del objeto raiz y de la instancia arbol
          
         
     }
