@@ -38,7 +38,7 @@ public class Arbol {
             preOrden(raiz.derecho);
         }
     } 
-      public void inOrden(Node raiz){ //
+      public void inOrden(Node raiz){  // raiz 1= null significa que ya no hay nada que imprimir y se regresa a la raiz 3 y se imprime 2
         if (raiz != null){ 
             inOrden(raiz.izquierdo); 
             System.out.println(raiz.dato); 
