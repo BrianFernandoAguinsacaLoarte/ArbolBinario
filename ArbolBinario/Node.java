@@ -16,3 +16,6 @@ public void setIzquierdo(Node izquierdo) {
   public void setDerecho(Node derecho) {  
         this.derecho = derecho; 
     }
+ public String toString(){  // toString ayueda a acceder los datos de la clase
+        return "Aqui se presenta el preorden, inorden y el posorden   ";
+    }
