@@ -21,7 +21,4 @@ public class Main {
 
         System.out.println("posorden"); // Se realiza la impresión del PosOrden
         arbol.posOrden(arbol.raiz); 
-        
-         
-        
     }
