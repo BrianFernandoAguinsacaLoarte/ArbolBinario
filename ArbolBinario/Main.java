@@ -13,6 +13,8 @@ public class Main {
 
          System.out.println(arbol); // Se realiza la impresion del PreOrden, InOrden y PosOrden
          System.out.println("preorden"); // Se realiza la impresion del PreOrden
+         arbol.preOrden(arbol.raiz);
+        
          
         
     }
