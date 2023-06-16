@@ -24,7 +24,7 @@ public class Arbol {
             }
         }
     }
-    public Node getRaiz() {
+    public Node getRaiz() { //getters y setters de la raiz del arbol binario 
         return raiz;
     }
 
