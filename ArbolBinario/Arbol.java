@@ -47,7 +47,7 @@ public class Arbol {
     }
      public void posOrden(Node raiz){   // 5 3 1 2 8
         if (raiz != null){ // raiz 1= null significa que ya no hay nada que imprimir y se regresa a la raiz 3 y se imprime 2
-            posOrden(raiz.izquierdo); 
+            posOrden(raiz.izquierdo); //// pos orden 1 = null se regresa a la raiz 3 y se imprime 2
             posOrden(raiz.derecho); 
             System.out.println(raiz.dato);
         }
