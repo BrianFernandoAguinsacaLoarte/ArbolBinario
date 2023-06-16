@@ -52,5 +52,8 @@ public class Arbol {
             System.out.println(raiz.dato);
         }
     }
+       public String toString(){
+        return raiz.toString(); // return "Aqui se presenta el preorden, inorden y el posorden   ";
+    }
         
     }
