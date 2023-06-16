@@ -42,13 +42,13 @@ public class Arbol {
         if (raiz != null){    // raiz 1= null significa que ya no hay nada que imprimir y se regresa a la raiz 3 y se imprime 2
             inOrden(raiz.izquierdo); //in orden 1 = null se regresa a la raiz 3 y se imprime 3
             System.out.println(raiz.dato);  // in orden 2 = null se regresa a la raiz 3 y se imprime 1
-            inOrden(raiz.derecho); //// pos orden 2 = null se regresa a la raiz 3 y se imprime 3
+            inOrden(raiz.derecho); 
         }
     }
      public void posOrden(Node raiz){   // 5 3 1 2 8
         if (raiz != null){ // raiz 1= null significa que ya no hay nada que imprimir y se regresa a la raiz 3 y se imprime 2
-            posOrden(raiz.izquierdo); //// pos orden 1 = null se regresa a la raiz 3 y se imprime 2
-            posOrden(raiz.derecho); 
+            posOrden(raiz.izquierdo); //pos orden 1 = null se regresa a la raiz 3 y se imprime 2
+            posOrden(raiz.derecho); // pos orden 2 = null se regresa a la raiz 3 y se imprime 3
             System.out.println(raiz.dato);
         }
     }
