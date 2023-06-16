@@ -31,4 +31,11 @@ public class Arbol {
     public void setRaiz(Node raiz) {
         this.raiz = raiz;
     }
+     public void preOrden(Node raiz){
+        if (raiz != null){ // raiz 1= null significa que ya no hay nada que imprimir y se regresa a la raiz 3 y se imprime 2
+            System.out.println(raiz.dato); // pre orden 1 = null se regresa a la raiz 3 y se imprime 1
+            preOrden(raiz.izquierdo);
+            preOrden(raiz.derecho);
+        }
+    } 
     }
