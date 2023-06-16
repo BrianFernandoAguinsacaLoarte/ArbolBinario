@@ -1,5 +1,5 @@
-public int getDato() {  
-        return dato; 
+public int getDato() {   //se crea el get y el set 
+        return dato;  // se retorna el dato
     }
 public void setDato(int dato) { 
         this.dato = dato;
