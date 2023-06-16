@@ -45,7 +45,7 @@ public class Arbol {
             inOrden(raiz.derecho);
         }
     }
-     public void posOrden(Node raiz){  
+     public void posOrden(Node raiz){   // 5 3 1 2 8
         if (raiz != null){ 
             posOrden(raiz.izquierdo); 
             posOrden(raiz.derecho); 
