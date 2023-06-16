@@ -11,9 +11,16 @@ public class Main {
           arbol.raiz.izquierdo.izquierdo.derecho=new Node(2); //Se crea un objeto Node que tiene como valor , del atributo derecho, del objeto izquierdo
                                                             //del objeto raiz y de la instancia arbol
 
-         System.out.println(arbol); // Se realiza la impresion del PreOrden, InOrden y PosOrden
-         System.out.println("preorden"); // Se realiza la impresion del PreOrden
+         System.out.println(arbol); // Se realiza la impresion General del PreOrden, InOrden y PosOrden
+        
+        System.out.println("preorden"); // Se realiza la impresión del PreOrden
          arbol.preOrden(arbol.raiz);
+
+        System.out.println("inorden"); // Se realiza la impresión del InOrden
+        arbol.inOrden(arbol.raiz); 
+
+        System.out.println("posorden"); // Se realiza la impresión del PosOrden
+        arbol.posOrden(arbol.raiz); 
         
          
         
