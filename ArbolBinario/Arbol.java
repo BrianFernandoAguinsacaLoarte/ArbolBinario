@@ -38,4 +38,12 @@ public class Arbol {
             preOrden(raiz.derecho);
         }
     } 
+      public void inOrden(Node raiz){ //
+        if (raiz != null){ 
+            inOrden(raiz.izquierdo); 
+            System.out.println(raiz.dato); 
+            inOrden(raiz.derecho);
+        }
+    }
+        
     }
