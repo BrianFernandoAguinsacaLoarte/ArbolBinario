@@ -16,7 +16,7 @@ public void setIzquierdo(Node izquierdo) {
         return derecho; // se retorna el dato
     }
   public void setDerecho(Node derecho) {  
-        this.derecho = derecho; //this derecho es para referirse a la clase derecho es el dato que se le asigna a la clase
+        this.derecho = derecho; //es para  referirse a la clase derecho es el dato que se le asigna a la clase
     }
  public String toString(){  // toString ayueda a acceder los datos de la clase
         return "Aqui se presenta el preorden, inorden y el posorden   ";
