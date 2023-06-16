@@ -8,7 +8,7 @@ public void setDato(int dato) { // se crea el set para acceder a los datos
 public Node getIzquierdo() {    
         return izquierdo; 
     }
-public void setIzquierdo(Node izquierdo) { 
+public void setIzquierdo(Node izquierdo) { //es para  referirse a la clase izquierdo es el dato que se le asigna a la clase
        this.izquierdo = izquierdo; 
     }
  // se crea el get y el set para poder acceder a los datos de la clase
